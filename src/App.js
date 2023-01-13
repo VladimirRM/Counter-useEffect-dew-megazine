@@ -2,6 +2,11 @@ import { Button } from "react-bootstrap";
 import "./App.css";
 
 function App() {
+
+const handleIntervalClick =()=>{
+  
+}
+
   return (
     <div className="container">
       <Timer intervalValue={intervalValue}></Timer>
